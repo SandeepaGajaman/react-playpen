@@ -3,6 +3,7 @@ import './App.css';
 import TestJsx from './playpen/Jsx';
 import User from './playpen/Class';
 import Student from './playpen/Function';
+import Clock from './playpen/State';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <User/>
         <Student name='Sandeepa'/>
         <Student name='Lahiru'/>
+        <Clock/>
       </header>
     </div>
   );
