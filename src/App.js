@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import TestJsx from './playpen/Jsx';
 import User from './playpen/Class';
+import Student from './playpen/Function';
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <TestJsx/>
         <User/>
+        <Student name='Sandeepa'/>
+        <Student name='Lahiru'/>
       </header>
     </div>
   );

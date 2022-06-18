@@ -1,7 +1,7 @@
 function TestJsx(){
     return(
         <div>
-            <p>Hello JSX! Time is {new Date().toLocaleTimeString()} !</p>
+            <p>Hello JSX! Time is {new Date().toLocaleTimeString()}</p>
         </div>
     );
 }
