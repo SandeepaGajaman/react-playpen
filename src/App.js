@@ -4,6 +4,7 @@ import TestJsx from './playpen/Jsx';
 import User from './playpen/Class';
 import Student from './playpen/Function';
 import Clock from './playpen/State';
+import LifeCycle from './playpen/LifeCycle';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Student name='Sandeepa'/>
         <Student name='Lahiru'/>
         <Clock/>
+        <LifeCycle/>
       </header>
     </div>
   );

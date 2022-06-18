@@ -1,7 +1,7 @@
 function TestJsx(){
     return(
         <div>
-            <p>Hello JSX! Time is {new Date().toLocaleTimeString()}</p>
+            <li>JSX: Hello React</li>
         </div>
     );
 }

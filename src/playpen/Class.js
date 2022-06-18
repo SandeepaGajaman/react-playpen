@@ -2,7 +2,7 @@ import React from "react";
 
 class User extends React.Component{
     render(){
-        return <p> This is user class!</p>;
+        return <li> This is a class "User"</li>;
     }
 }
 

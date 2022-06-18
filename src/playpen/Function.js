@@ -1,5 +1,5 @@
 function Student(props){
-    return <li>Hello {props.name} Student!!</li>
+    return <li>Function: Hello {props.name} Student</li>
 }
 
 export default Student;
