@@ -10,6 +10,8 @@ import Login from './playpen/ConditionalRendering';
 import NumberList from './playpen/Keys';
 import WebForm from './playpen/Forms';
 import ReusableForm from './playpen/ReusableComponent';
+import TemperatureCalculator from './playpen/LiftingStateUpEx1';
+import TemperatureCalculator2 from './playpen/LiftingStateUpEx2';
 
 
 function App() {
@@ -28,6 +30,10 @@ function App() {
         <NumberList/>
         <WebForm/>
         <ReusableForm/>
+        <br/>
+        <TemperatureCalculator/>
+        <br/>
+        <TemperatureCalculator2/>
       </header>
     </div>
   );
