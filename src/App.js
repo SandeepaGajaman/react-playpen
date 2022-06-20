@@ -5,6 +5,11 @@ import User from './playpen/Class';
 import Student from './playpen/Function';
 import Clock from './playpen/State';
 import LifeCycle from './playpen/LifeCycle';
+import Form from './playpen/Events';
+import Login from './playpen/ConditionalRendering';
+import NumberList from './playpen/Keys';
+import WebForm from './playpen/Forms';
+import ReusableForm from './playpen/ReusableComponent';
 
 
 function App() {
@@ -18,6 +23,11 @@ function App() {
         <Student name='Lahiru'/>
         <Clock/>
         <LifeCycle/>
+        <Form/>
+        <Login/>
+        <NumberList/>
+        <WebForm/>
+        <ReusableForm/>
       </header>
     </div>
   );
