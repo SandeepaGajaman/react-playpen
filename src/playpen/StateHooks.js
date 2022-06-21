@@ -14,7 +14,7 @@ import React, {useState} from 'react';
 //     );
 // }
 
-const CheckHooks = () => {
+const StateHook = () => {
     const [count, setCount] = useState(0);
 
     return (
@@ -27,4 +27,4 @@ const CheckHooks = () => {
     );
 }
 
-export default CheckHooks;
+export default StateHook;

@@ -12,7 +12,8 @@ import WebForm from './playpen/Forms';
 import ReusableForm from './playpen/ReusableComponent';
 import TemperatureCalculator from './playpen/LiftingStateUpEx1';
 import TemperatureCalculator2 from './playpen/LiftingStateUpEx2';
-import CheckHooks from './playpen/StateHooks';
+import StateHook from './playpen/StateHooks';
+import EffectHook from './playpen/EffectHooks';
 
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
         <TemperatureCalculator/>
         <br/>
         <TemperatureCalculator2/>
-        <CheckHooks/>
+        <StateHook/>
+        <EffectHook/>
       </header>
     </div>
   );
