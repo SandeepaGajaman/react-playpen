@@ -14,6 +14,7 @@ import TemperatureCalculator from './playpen/LiftingStateUpEx1';
 import TemperatureCalculator2 from './playpen/LiftingStateUpEx2';
 import StateHook from './playpen/StateHooks';
 import EffectHook from './playpen/EffectHooks';
+import LifeCycleWithHooks from './playpen/TapApp';
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
         <TemperatureCalculator2/>
         <StateHook/>
         <EffectHook/>
+        <br/>
+        <LifeCycleWithHooks/>
+        <br/>
       </header>
     </div>
   );

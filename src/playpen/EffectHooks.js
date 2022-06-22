@@ -13,9 +13,9 @@ const EffectHook = () => {
 
     return (
         <div>
-            <p>{count} Taps</p>
+            <p>{count} Hits!</p>
             <button onClick = { () => setCount( count + 1) }>
-                Tap
+                Hit
             </button>
         </div>
     );
